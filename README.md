@@ -385,11 +385,6 @@ cd A-B-Testing-Analysis-Causal-Inference-Landing-Page-Experiment
 pip install pandas numpy statsmodels plotly dash dash-bootstrap-components jupyter
 ```
 
-Or install manually:
-```bash
-pip install pandas numpy statsmodels plotly dash dash-bootstrap-components jupyter
-```
-
 **3. Run the analysis notebook**
 ```bash
 jupyter notebook ab_testing_causal_inference_report.ipynb
