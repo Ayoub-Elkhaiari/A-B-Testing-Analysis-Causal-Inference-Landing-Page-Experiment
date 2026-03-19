@@ -1,14 +1,14 @@
 # A/B Testing Analysis & Causal Inference — Landing Page Experiment
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-1.25-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Dash](https://img.shields.io/badge/Dash-Dashboard-008DE4?style=for-the-badge&logo=plotly&logoColor=white)
-![Statsmodels](https://img.shields.io/badge/Statsmodels-Frequentist%20%2B%20Power-4B8BBE?style=for-the-badge)
-![Bayesian](https://img.shields.io/badge/Bayesian-Monte%20Carlo%20200K%20draws-9B59B6?style=for-the-badge)
-![Status](https://img.shields.io/badge/Recommendation-DO%20NOT%20LAUNCH-FF0000?style=for-the-badge)
-![Dataset](https://img.shields.io/badge/Dataset-290%2C584%20users-27AE60?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/)
+[![Dash](https://img.shields.io/badge/Dash-Dashboard-008DE4?logo=plotly&logoColor=white)](https://dash.plotly.com/)
+[![Statsmodels](https://img.shields.io/badge/Statsmodels-Statistics-4B8BBE)](https://www.statsmodels.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen)]()
+[![Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/zhangluyuan/ab-testing)
 > **Can a redesigned landing page increase conversions enough to justify a full launch?**  
 > This project answers that question using a rigorous end-to-end experiment analysis combining frequentist hypothesis testing, Bayesian decision analysis, temporal segmentation, and business impact modeling — all presented through an interactive dashboard.
 
