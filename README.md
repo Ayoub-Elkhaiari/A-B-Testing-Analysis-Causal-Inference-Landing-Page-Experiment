@@ -1,4 +1,4 @@
-# A/B Testing & Causal Inference — Landing Page Experiment
+# A/B Testing Analysis & Causal Inference — Landing Page Experiment
 
 > **Can a redesigned landing page increase conversions enough to justify a full launch?**  
 > This project answers that question using a rigorous end-to-end experiment analysis combining frequentist hypothesis testing, Bayesian decision analysis, temporal segmentation, and business impact modeling — all presented through an interactive dashboard.
@@ -85,11 +85,9 @@ The goal of this analysis is to quantify the evidence clearly enough for leaders
 ```
 ab-testing-causal-inference/
 │
-├── ab_data.csv                                      # Raw experiment dataset
+├── data/ab_data.csv                                      # Raw experiment dataset
 ├── ab_testing_causal_inference_report.ipynb         # Full analysis notebook
-├── dashboard.py                                     # Interactive Dash dashboard
-├── dashboard_screenshot.png                         # Dashboard preview image
-├── requirements.txt                                 # Python dependencies
+├── dashboard.py                                     # Interactive Dash dashboard                                                       
 └── README.md                                        # This file
 ```
 
@@ -273,7 +271,8 @@ At the observed lift of -0.1578%, the new page would cost the business $2,762 pe
 
 The interactive Dash dashboard summarizes all findings in a single professional view built for both technical analysts and non-technical business stakeholders.
 
-![A/B Test Results Dashboard](dashboard_screenshot.png)
+![Screenshot_19-3-2026_92826_127 0 0 1](https://github.com/user-attachments/assets/233c0c09-5259-4ee3-9a38-15c7b7e83588)
+
 
 ### Dashboard Components Explained
 
@@ -377,13 +376,13 @@ The analysis is consistent across every framework — frequentist, Bayesian, seg
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/ab-testing-causal-inference.git
-cd ab-testing-causal-inference
+git clone https://github.com/Ayoub-Elkhaiari/A-B-Testing-Analysis-Causal-Inference-Landing-Page-Experiment.git
+cd A-B-Testing-Analysis-Causal-Inference-Landing-Page-Experiment
 ```
 
 **2. Install dependencies**
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy statsmodels plotly dash dash-bootstrap-components jupyter
 ```
 
 Or install manually:
@@ -403,7 +402,7 @@ python dashboard.py
 ```
 Then open `http://127.0.0.1:8050` in your browser.
 
-> **Note:** Both the notebook and dashboard require `ab_data.csv` to be in the same directory.
+> **Note:** Both the notebook and dashboard require `ab_data.csv` to be in the `data` folder.
 
 ---
 
