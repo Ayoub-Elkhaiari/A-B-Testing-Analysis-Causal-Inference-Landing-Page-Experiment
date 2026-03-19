@@ -1,5 +1,14 @@
 # A/B Testing Analysis & Causal Inference — Landing Page Experiment
-
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-1.25-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-Dashboard-008DE4?style=for-the-badge&logo=plotly&logoColor=white)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-Frequentist%20%2B%20Power-4B8BBE?style=for-the-badge)
+![Bayesian](https://img.shields.io/badge/Bayesian-Monte%20Carlo%20200K%20draws-9B59B6?style=for-the-badge)
+![Status](https://img.shields.io/badge/Recommendation-DO%20NOT%20LAUNCH-FF0000?style=for-the-badge)
+![Dataset](https://img.shields.io/badge/Dataset-290%2C584%20users-27AE60?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 > **Can a redesigned landing page increase conversions enough to justify a full launch?**  
 > This project answers that question using a rigorous end-to-end experiment analysis combining frequentist hypothesis testing, Bayesian decision analysis, temporal segmentation, and business impact modeling — all presented through an interactive dashboard.
 
